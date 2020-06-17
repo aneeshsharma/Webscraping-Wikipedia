@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pyppeteer = "*"
+beautifulsoup4 = "*"
+google-cloud-texttospeech = "*"
+python-vlc = "*"
+
+[requires]
+python_version = "3.8"
+
+[scripts]
+start = "python main.py"
